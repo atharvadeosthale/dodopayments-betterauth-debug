@@ -4,8 +4,7 @@
     "": {
       "name": "dodopayments-betterauth",
       "dependencies": {
-        "@dodopayments/better-auth": "^1.1.3",
-        "@dodopayments/core": "^0.1.16",
+        "@dodopayments/better-auth": "^1.2.0",
         "better-auth": "^1.3.17",
         "dodopayments": "^2.1.0",
         "zod": "^4.1.11",
@@ -145,7 +144,7 @@
 
     "@better-fetch/fetch": ["@better-fetch/fetch@1.1.18", "", {}, "sha512-rEFOE1MYIsBmoMJtQbl32PGHHXuG2hDxvEd7rUHE0vCBoFQVSDqaVs9hkZEtHCxRoY+CljXKFCOuJ8uxqw1LcA=="],
 
-    "@dodopayments/better-auth": ["@dodopayments/better-auth@1.1.3", "", { "dependencies": { "@dodopayments/core": "^0.1.16" }, "peerDependencies": { "dodopayments": "^1.53.0", "zod": "^3.0.0" } }, "sha512-YjzALbE5JKG2uLWRZ9TLi9NJ7mcEPzot5rLg81e1qASAQ0yNzi/KuBiVRwPVS0nW41HQroXcknoKq2Av7FrpvQ=="],
+    "@dodopayments/better-auth": ["@dodopayments/better-auth@1.2.0", "", { "dependencies": { "@dodopayments/core": "^0.2.0" }, "peerDependencies": { "zod": "^3.0.0" } }, "sha512-30IKJ6Vv4O08BQcLRn4hA7nvJhvz7fLBZxYZt1Lws/bVuYqjjaHLf7jHFXMpeDywTj468CEoZUhZSgn67X5q7w=="],
 
     "@dodopayments/core": ["@dodopayments/core@0.1.16", "", { "dependencies": { "dodopayments": "^1.51.2", "standardwebhooks": "^1.0.0" }, "peerDependencies": { "zod": "^3.25.74" } }, "sha512-Et4+XEYn0rb2wvFsV9Rku9OXqmDOkdJ1L2xFZE9DP7iyutidsgsBD/nnjMMIS9eQj3EYn2JEYPEYiSjKjoI5iA=="],
 
@@ -1032,6 +1031,8 @@
     "@babel/helper-compilation-targets/semver": ["semver@6.3.1", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
 
     "@babel/helper-create-class-features-plugin/semver": ["semver@6.3.1", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
+
+    "@dodopayments/better-auth/@dodopayments/core": ["@dodopayments/core@0.2.0", "", { "dependencies": { "dodopayments": "^2.0.2", "standardwebhooks": "^1.0.0" }, "peerDependencies": { "zod": "^3.25.74" } }, "sha512-dnjFIK5KVzhKk7I5/UnHjnKerI+g8QWYPdWu4/aw1Q3/d2GTEohluy6uYLcWoUf3TeQb0w30Wi0VtG6q0L7dVg=="],
 
     "@dodopayments/core/dodopayments": ["dodopayments@1.53.2", "", { "dependencies": { "@types/node": "^18.11.18", "@types/node-fetch": "^2.6.4", "abort-controller": "^3.0.0", "agentkeepalive": "^4.2.1", "form-data-encoder": "1.7.2", "formdata-node": "^4.3.2", "node-fetch": "^2.6.7" } }, "sha512-ATRqZUvbJ9JnJd0GPdy9+fy3K3Hg+19pnnmVGgIiiNiHUIYkh0N1/68HlKsA7c7cx1uGr879moZgCaRd9RISpw=="],
 

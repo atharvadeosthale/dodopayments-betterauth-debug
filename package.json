@@ -19,8 +19,7 @@
     "db:migrate": "turbo -F server db:migrate"
   },
   "dependencies": {
-    "@dodopayments/better-auth": "^1.1.3",
-    "@dodopayments/core": "^0.1.16",
+    "@dodopayments/better-auth": "^1.2.0",
     "better-auth": "^1.3.17",
     "dodopayments": "^2.1.0",
     "zod": "^4.1.11"
